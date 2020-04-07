@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "SF Pro Text";
+}
+
+/* --- NAVBAR --- */
+
+.navbar {
+    overflow: hidden;
+    background-color: #262626;
+    width: 100%;
+    height: 49px;
+    position: fixed;
+}
+
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+}
+
+.menu {
+    margin-left: 30px;
+    float: left;
+    overflow: hidden;
+    height: 100%;
+}
+
+.menu button {
+    width: 100%;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 15px;
+    background-color: inherit;
+    font-family: inherit;
+}
+
+.menu:hover .drop-menu {
+    background-color: grey;
+    color: white;
+    transition: 0.3s all;
+}
+
+.menu-content {
+    display: none;
+    position: absolute;
+    background-color: #f0f0f0;
+    width: 180px;
+    position: fixed;
+}
+
+.menu-content a {
+    float: none;
+    color: black;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menu-content a:hover {
+    background-color: lightgray;
+}
+
+.menu:hover .menu-content {
+    display: block;
+}
+
+.search {
+    float: right;
+    padding-top: 12px;
+    padding-right: 50px;
+}
+
+.searchbar {
+    padding-left: 12px;
+    width: 300px;
+    height: 22px;
+    border-style: none;
+    border-radius: 5px 0 0 5px;
+    font-size: 13px;
+}
+
+.searchbutton {
+    float: right;
+    width: 80px;
+    height: 24px;
+    color: white;
+    background-color: #8a8a8a;
+    border-style: none;
+    border-radius: 0 5px 5px 0;
+    font-size: 13px;
+}
+
+.searchbutton:hover {
+    font-weight: 600;
+    color: black;
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+
+/* --- SLIDER --- */
+
+.slider {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+}
+
+.slider img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+hr {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid #333;
+}
+
+
+/* --- BOXES --- */
+
+h1 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.boxes {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.box {
+    margin: 30px auto;
+    width: 32.5%;
+}
+
+.box:hover {
+    opacity: 70%;
+}
+
+
+.see {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 35px;
+    background-color: crimson;
+    font-size: 14px;
+    color: white;
+    border: none;
+    transition-duration: 0.3s;
+}
+
+.see:hover {
+    color: white;
+    background-color: #fac916;
+    border-radius: 20px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.footer a {
+    color: grey;
+}
